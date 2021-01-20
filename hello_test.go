@@ -11,3 +11,12 @@ func TestHello(t *testing.T) {
     }
 }
 
+func TestHelloByName(t *testing.T) {
+    got := HelloByName("Michael")
+    want := "Hello, Michael"
+
+    if got != want {
+        t.Errorf("got %q want %q", got, want)
+    }
+}
+
