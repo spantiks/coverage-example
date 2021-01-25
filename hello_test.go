@@ -20,7 +20,4 @@ func TestHelloByName(t *testing.T) {
     }
 }
 
-func TestMain(t *testing.T) {
-    main()
-}
 
